@@ -6,18 +6,18 @@ public class Main {
 
         StatsService summ = new StatsService();
 
-        int sales[] = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
+        long sales[] = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
 
         // общая сумма всех продаж:
 
-        int amaunt = summ.sumAllSales(sales);
+        long amaunt = summ.sumAllSales(sales);
 
         System.out.println("Общая сумма всех продаж " + amaunt);
 
         // средняя сумма продаж в месяц
 
-        int Average = summ.sumAverageSalesInMonth(sales);
+        long Average = summ.sumAverageSalesInMonth(sales);
 
         System.out.println("Средняя сумма продаж в месяц " + Average);
 
